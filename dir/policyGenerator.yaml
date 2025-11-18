@@ -4,9 +4,6 @@ metadata:
   name: policy-generator-example
 policyDefaults:
   namespace: default
-  placement:
-    labelSelector:
-      rhdp_usage: development
   remediationAction: inform
 policies:
   - name: openshift-gitops-installed
